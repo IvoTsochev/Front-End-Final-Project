@@ -1,3 +1,5 @@
+
+/* Hero Images */
 #index {
     background: url('https://images.unsplash.com/photo-1453945619913-79ec89a82c51?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=60') no-repeat center center/cover;
     height: var(--header-img-height, 80vh);
@@ -23,6 +25,7 @@
     height: var(--header-img-height, 80vh);
 }
 
+/* Navigation */
 header .nav ul {
     display: flex;
     list-style: none;
@@ -52,4 +55,22 @@ header .nav ul li a:hover {
 header .nav ul li .current {
     color: #fff;
     background: rgb(23, 211, 63);
+}
+
+/* Hero Content */
+#index .showcase-content,
+#services .showcase-content,
+#compensations .showcase-content,
+#rates .showcase-content, 
+#contacts .showcase-content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: #fff;
+    margin-top: var(--showcase-content-m, 5rem) ; 
+}
+
+#index .showcase-content img {
+    margin: 0 auto;
+    width: 100px;
 }
