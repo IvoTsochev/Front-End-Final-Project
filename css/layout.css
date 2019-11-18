@@ -6,3 +6,28 @@
 .l-heading {
     font-size: 3rem;
 }
+
+.m-heading {
+    font-size: 2rem;
+}
+
+.section-p {
+    padding: 5rem;
+}
+
+/* INDEX PAGE */
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 60rem;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.container div:first-child {
+    padding-bottom: 2rem;
+}
+
+
