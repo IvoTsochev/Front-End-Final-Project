@@ -1,29 +1,35 @@
 
 /* Hero Images */
 #index {
-    background: url('https://images.unsplash.com/photo-1453945619913-79ec89a82c51?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=60') no-repeat center center/cover;
+    background: #333 url('/img/index_hero.jpeg') no-repeat center center/cover;
     height: var(--header-img-height, 80vh);
+    background-attachment: fixed;
 }
 
 #services {
-    background: url('https://images.unsplash.com/photo-1450101499163-c8848c66ca85?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=60') no-repeat center center/cover;
+    background: url('/img/services_hero.jpeg') no-repeat center center/cover;
     height: var(--header-img-height, 80vh);
+    background-attachment: fixed;
 }
 
 #compensations {
-    background: url('https://images.unsplash.com/photo-1507679799987-c73779587ccf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=60') no-repeat center center/cover;
+    background: url('/img/services_hero.jpeg') no-repeat center center/cover;
     height: var(--header-img-height, 80vh);
+    background-attachment: fixed;
 }
 
 #rates {
-    background: url('https://images.unsplash.com/photo-1505682634904-d7c8d95cdc50?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=60') no-repeat center center/cover;
+    background: url('/img/rates_hero.jpeg') no-repeat center center/cover;
     height: var(--header-img-height, 80vh);
+    background-attachment: fixed;
 }
 
 #contacts {
-    background: url('https://images.unsplash.com/photo-1489410342162-b4b300a0bb15?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=60') no-repeat center center/cover;
+    background: url('/img/contacts_hero.jpeg') no-repeat center center/cover;
     height: var(--header-img-height, 80vh);
+    background-attachment: fixed;
 }
+
 
 /* Navigation */
 header .nav ul {
