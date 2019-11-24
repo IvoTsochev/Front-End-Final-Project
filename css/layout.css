@@ -15,6 +15,14 @@
     padding: 5rem;
 }
 
+.slideInFromLeft {
+    animation-duration: 1s;
+    animation-timing-function: linear; 
+    animation-delay: 0s; 
+    animation-iteration-count: 1; 
+    animation-name: slideInFromLeft; 
+}
+
 /* INDEX PAGE */
 .container {
     display: flex;
@@ -98,4 +106,5 @@ footer {
     background: #323437;
     width: 100%;
     text-align: center;
+    color: #fff;
 }

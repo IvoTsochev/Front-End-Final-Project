@@ -73,11 +73,11 @@ header .nav ul li .current {
     flex-direction: column;
     text-align: center;
     color: #fff;
-    /* margin-top: var(--showcase-content-m, 5rem) ;  */
     height: 85%;
     justify-content: center;
 }
 
+/* Image Size */
 #index .showcase-content img {
     margin: 0 auto;
     width: 200px;
