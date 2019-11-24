@@ -1,7 +1,7 @@
 
 /* Hero Images */
 #index {
-    background: #333 url('img/index_hero.jpeg') no-repeat center center/cover;
+    background: url('img/index_hero.jpeg') no-repeat center center/cover;
     height: var(--header-img-height, 80vh);
     background-attachment: fixed;
 }
