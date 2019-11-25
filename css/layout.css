@@ -69,6 +69,38 @@
 }
 
 
+/* COMPENSATION */
+.compensations-main {
+    width: 60rem;
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+
+.compensations-main p {
+    margin-bottom: 1rem;
+}
+
+.compensations-main h2 {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+
+/* RATES */
+.rates-main {
+    width: 60rem;
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+
+.rates-main > h2,
+.rates-main > p,
+.rates-main > article > h2,
+.rates-main > article > h3 {
+    text-align: center;
+}
+
+
 /* FOOTER */
 footer {
     background: #323437;
