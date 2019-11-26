@@ -63,6 +63,38 @@ header .nav ul li .current {
     background: rgb(23, 211, 63);
 }
 
+/* Dropdown menu */
+.dropbtn {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: lightgray;
+    min-width: 50px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 20px 10px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover { background-color: white; }
+.dropdown:hover .dropdown-content { display: block; }
+.dropdown:hover .dropbtn { background-color: grey;}
+
 /* Hero Content */
 #index .showcase-content,
 #services .showcase-content,
