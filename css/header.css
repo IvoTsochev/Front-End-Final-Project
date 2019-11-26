@@ -65,8 +65,8 @@ header .nav ul li .current {
 
 /* Dropdown menu */
 .dropbtn {
-    background-color: black;
-    color: white;
+    background-color: rgb(23, 211, 63);
+    color: #fff;
     padding: 10px;
     border: none;
 }
@@ -79,7 +79,7 @@ header .nav ul li .current {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: lightgray;
+    background-color: #000;
     min-width: 50px;
     z-index: 1;
 }
@@ -93,7 +93,8 @@ header .nav ul li .current {
 
 .dropdown-content a:hover { background-color: white; }
 .dropdown:hover .dropdown-content { display: block; }
-.dropdown:hover .dropbtn { background-color: grey;}
+.dropdown:hover .dropbtn { background-color: black; }
+header .nav .dropdown li a:hover { background-color: rgb(23, 211, 63); }
 
 /* Hero Content */
 #index .showcase-content,
