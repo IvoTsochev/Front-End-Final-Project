@@ -1,31 +1,31 @@
 
 /* Hero Images */
 #index {
-    background: url('/Front-End-Final-Project/img/index_hero.JPEG') no-repeat center center/cover;
+    background: url('/img/index_hero.JPEG') no-repeat center center/cover;
     height: var(--header-img-height, 80vh);
     background-attachment: fixed;
 }
 
 #services {
-    background: url('/Front-End-Final-Project/img/services_hero.JPEG') no-repeat center center/cover;
+    background: url('/img/services_hero.JPEG') no-repeat center center/cover;
     height: var(--header-img-height, 80vh);
     background-attachment: fixed;
 }
 
 #compensations {
-    background: url('/Front-End-Final-Project/img/services_hero.JPEG') no-repeat center center/cover;
+    background: url('/img/services_hero.JPEG') no-repeat center center/cover;
     height: var(--header-img-height, 80vh);
     background-attachment: fixed;
 }
 
 #rates {
-    background: url('/Front-End-Final-Project/img/rates_hero.JPEG') no-repeat center center/cover;
+    background: url('/img/rates_hero.JPEG') no-repeat center center/cover;
     height: var(--header-img-height, 80vh);
     background-attachment: fixed;
 }
 
 #contacts {
-    background: url('/Front-End-Final-Project/img/contacts_hero.JPEG') no-repeat center center/cover;
+    background: url('/img/contacts_hero.JPEG') no-repeat center center/cover;
     height: var(--header-img-height, 80vh);
     background-attachment: fixed;
 }
