@@ -27,7 +27,7 @@
 .container {
     display: flex;
     flex-direction: column;
-    width: 60rem;
+    width: 70rem;
     text-align: center;
     justify-content: center;
     margin: 0 auto;
@@ -38,7 +38,7 @@
 }
 
 #home-services {
-    width: 60rem;
+    width: 70rem;
     margin: 0 auto;
 }
 
@@ -72,6 +72,7 @@
 .services-main {
     width: 70rem;
     margin: 0 auto;
+    padding-top: 5rem;
     text-align: center;
 }
 
@@ -96,16 +97,14 @@
     margin-bottom: 1rem;
 }
 
-.services-grid section p {
-    border: 1px solid red;
-}
+
 
 
 /* COMPENSATION */
 .compensations-main {
     width: 70rem;
     margin: 0 auto;
-    padding: 2rem 0;
+    padding: 5rem 0;
 }
 
 .compensations-main p {
@@ -122,7 +121,7 @@
 .rates-main {
     width: 70rem;
     margin: 0 auto;
-    padding: 2rem 0;
+    padding: 5rem 0;
 }
 
 .rates-main > h2,
