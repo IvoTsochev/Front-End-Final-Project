@@ -23,6 +23,7 @@
     animation-name: slideInFromLeft; 
 }
 
+
 /* INDEX PAGE */
 .container {
     display: flex;
@@ -68,7 +69,6 @@
 #home-services #section-2 i {
     font-size: 3rem;
     padding-bottom: 1.5rem;
-
 }
 
 #home-services section div {
@@ -78,8 +78,9 @@
     padding: 3rem;
     margin: 1rem;
     text-align: center;
-    
 }
+
+/* Make a hover state of the whole box and a hove state on the Прочети повече */
 
 /* SERVICES */
 .services-main {
