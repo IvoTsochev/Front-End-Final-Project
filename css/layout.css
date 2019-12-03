@@ -78,11 +78,7 @@
     padding: 3rem;
     margin: 1rem;
     text-align: center;
-}
-
-#home-services #section-1 div:nth-child(1) {
-    background: url('../img/books.jpg');
-    color: #fff;
+    
 }
 
 /* SERVICES */
