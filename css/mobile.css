@@ -1,0 +1,106 @@
+/* Smartphone */
+
+/* Index Page */
+@media (max-width: 768px) {
+    .nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #index {
+        height: 100vh;
+    }
+
+    .container {
+        display: flex;
+    }
+
+    .container .m-heading {
+        justify-content: center;
+    }
+
+    #home-services {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #section-1 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #section-2 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+/* Services Page */
+@media (max-width: 768px) {
+    .services-main {
+        width: 100%;
+    }
+
+    img {
+        display: none;
+    }
+
+    .services-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Compensations Page*/
+@media (max-width: 768px) {
+    .compensations-main {
+        width: 100%;
+        margin: 0 1rem;
+    }
+
+    .compensations-main h2 {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+/* Rates Page */
+@media (max-width: 768px) {
+    .rates-main {
+        width: 100%;
+        padding: 0 1rem;
+    }
+
+    .rates-main h2:first-child {
+        padding-top: 1rem;
+    }
+}
+
+/* Contact Page */
+@media (max-width: 768px) {
+    .contact-main {
+        width: 100%;
+        height: 30vh;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+
+
+/* Tablet */
+
+/* Services Page */
+
+@media (max-width: 1100px) {
+    .services-main {
+        width: 100%;
+    }
+
+    img {
+        display: none;
+    }
+
+    .services-grid {
+        grid-template-columns: 1fr;
+    }
+}
