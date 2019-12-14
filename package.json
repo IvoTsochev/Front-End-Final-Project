@@ -1,0 +1,23 @@
+{
+  "name": "Front-End-Final-Project",
+  "version": "1.0.0",
+  "description": "Rebuilding hikov.eu Wordpress website on HTML &amp; CSS",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IvoTsochev/Front-End-Final-Project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IvoTsochev/Front-End-Final-Project/issues"
+  },
+  "homepage": "https://github.com/IvoTsochev/Front-End-Final-Project#readme",
+  "dependencies": {
+    "node-sass": "^4.13.0"
+  }
+}
