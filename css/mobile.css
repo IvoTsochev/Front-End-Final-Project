@@ -13,10 +13,9 @@
 
     .container {
         display: flex;
-    }
-
-    .container .m-heading {
-        justify-content: center;
+        width: 100%;
+        margin: 0;
+        padding: 0;
     }
 
     #home-services {
