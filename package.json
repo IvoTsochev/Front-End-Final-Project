@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/IvoTsochev/Front-End-Final-Project#readme",
   "dependencies": {
-    "node-sass": "^4.13.0"
+    "node-sass": "^4.13.1"
   }
 }
